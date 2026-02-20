@@ -1,76 +1,177 @@
-<section>
-    <h2>Projects</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelo Ceron Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
 
-    <!-- Concrete Canoe Project -->
-    <div class="project">
-        <h3>YorkU CNCC – Mix Design Team</h3>
-        <p><strong>September 2024 – April 2025</strong></p>
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .project {
+            background-color: white;
+            padding: 20px 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+
+        .project p, .project ul {
+            margin: 10px 0;
+        }
+
+        .project ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Marcelo Ceron</h1>
+        <p>Electrical Engineering Student | Eager to Learn and Apply Knowledge</p>
+    </header>
+
+    <!-- About Me -->
+    <section>
+        <h2>About Me</h2>
         <p>
-            Member of the York University Concrete Canoe Team, contributing to the development 
-            of a lightweight and structurally optimized concrete mix for the Canadian National Concrete Canoe Competition.
+            I am an Electrical Engineering student at York University with a strong passion for embedded systems, circuit design, and engineering problem-solving. 
+            I am eager to learn, grow, and apply my knowledge through hands-on projects and professional experiences. My goal is to create innovative solutions that 
+            integrate both hardware and software effectively.
         </p>
+    </section>
 
-        <p><strong>Technical Contributions:</strong></p>
-        <ul>
-            <li>Engineered mix formulations to reduce density below 1200 kg/m³ while maintaining structural integrity</li>
-            <li>Performed compressive strength testing targeting 10–20 MPa performance range</li>
-            <li>Optimized workability for 10–15 mm thin hull sections</li>
-            <li>Balanced cement, lightweight aggregates, and admixture ratios</li>
-            <li>Ensured compliance with ASTM and ASCE competition standards</li>
-        </ul>
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
 
-        <p>
-            This project strengthened my understanding of material optimization, engineering trade-offs,
-            and performance-based design under real-world constraints.
+        <!-- MATLAB & Java Project -->
+        <div class="project">
+            <h3>MATLAB Engineering Analysis & Java Embedded Project</h3>
+            <p><strong>2025</strong></p>
+            <p>
+                Developed MATLAB programs and Java-based applications to analyze engineering systems, process data, and implement algorithmic solutions.
+            </p>
+            <ul>
+                <li>Designed MATLAB scripts to process and visualize experimental engineering data</li>
+                <li>Implemented numerical methods and algorithms to solve engineering problems</li>
+                <li>Programmed Java-based embedded systems to control sensors and simulate processes</li>
+                <li>Applied modular coding practices with functions, loops, and logical structures</li>
+            </ul>
+            <p>
+                This project strengthened my computational and programming skills while bridging theoretical concepts with practical applications.
+            </p>
+        </div>
+
+        <!-- Automated Plant Watering System -->
+        <div class="project">
+            <h3>Automated Plant Watering System</h3>
+            <p><strong>Embedded Systems Project</strong></p>
+            <p>
+                Designed and built an automated plant watering system using microcontroller-based control logic to monitor soil moisture and regulate water delivery.
+            </p>
+            <ul>
+                <li>Integrated soil moisture sensors to continuously monitor real-time soil conditions</li>
+                <li>Programmed control logic to activate water pump when moisture dropped below threshold</li>
+                <li>Calibrated sensors to prevent overwatering and root damage</li>
+                <li>Implemented safety constraints and tested system under varying conditions</li>
+            </ul>
+            <p>
+                This project required knowledge of sensor interfacing, embedded programming, analog-to-digital conversion, and practical circuit integration, 
+                successfully automating irrigation and minimizing water waste.
+            </p>
+        </div>
+
+        <!-- Concrete Canoe Project -->
+        <div class="project">
+            <h3>YorkU CNCC – Concrete Canoe Mix Design Team</h3>
+            <p><strong>September 2024 – April 2025</strong></p>
+            <p>
+                Member of the York University Concrete Canoe Team, developing a lightweight and structurally optimized concrete mix for the Canadian National Concrete Canoe Competition.
+            </p>
+            <ul>
+                <li>Engineered mix formulations to reduce density below 1200 kg/m³ while maintaining structural integrity</li>
+                <li>Performed compressive strength testing targeting 10–20 MPa</li>
+                <li>Optimized workability for thin hull sections (10–15 mm)</li>
+                <li>Balanced cement, lightweight aggregates, and admixture ratios</li>
+                <li>Ensured compliance with ASTM and ASCE competition standards</li>
+            </ul>
+            <p>
+                This experience strengthened my understanding of material optimization, engineering trade-offs, and performance-based design under real-world constraints.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Email: <a href="mailto:mceron10@my.york.ca">mceron10@my.york.ca</a> | LinkedIn: 
+            <a href="https://www.linkedin.com/in/marcelo-ceron-317a64361/" target="_blank">Marcelo Ceron</a>
         </p>
-    </div>
+    </footer>
 
-    <!-- MATLAB Project -->
-    <div class="project">
-        <h3>MATLAB Engineering Analysis Project</h3>
-        <p><strong>2025</strong></p>
-        <p>
-            Developed MATLAB programs to analyze engineering systems using numerical methods, 
-            data visualization, and algorithm development.
-        </p>
-
-        <p><strong>Key Work:</strong></p>
-        <ul>
-            <li>Designed scripts to process and visualize experimental data</li>
-            <li>Implemented numerical techniques for solving engineering equations</li>
-            <li>Created plots to compare system performance under varying parameters</li>
-            <li>Applied logical structures, loops, and functions for modular programming</li>
-        </ul>
-
-        <p>
-            This project improved my computational problem-solving skills and strengthened my ability
-            to translate engineering concepts into functional code.
-        </p>
-    </div>
-
-    <!-- Plant Watering System -->
-    <div class="project">
-        <h3>Automated Plant Watering System</h3>
-        <p><strong>Embedded Systems Project</strong></p>
-        <p>
-            Designed and built an automated plant watering system using microcontroller-based control logic
-            to monitor soil moisture levels and regulate water delivery.
-        </p>
-
-        <p><strong>System Design & Implementation:</strong></p>
-        <ul>
-            <li>Integrated soil moisture sensors to continuously monitor real-time soil conditions</li>
-            <li>Programmed control logic to activate a water pump when moisture dropped below threshold</li>
-            <li>Calibrated sensor readings to prevent overwatering and root damage</li>
-            <li>Implemented delay logic and safety constraints to improve system reliability</li>
-            <li>Tested system performance under varying environmental conditions</li>
-        </ul>
-
-        <p>
-            This project required understanding of sensor interfacing, analog-to-digital conversion,
-            embedded programming logic, and practical circuit integration. The system successfully
-            automated irrigation while minimizing water waste and improving plant health consistency.
-        </p>
-    </div>
-
-</section>
+</body>
+</html>
