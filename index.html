@@ -29,7 +29,6 @@
 
         header p {
             margin-top: 10px;
-            font-size: 1.1rem;
         }
 
         .profile-pic {
@@ -86,31 +85,25 @@
 
 <body>
 
-<!-- Header -->
 <header>
     <h1>Marcelo Ceron</h1>
-    <p>
-        Second-Year Electrical Engineering Student | Embedded Systems • Digital Systems • Power Engineering
-    </p>
+    <p>Second-Year Electrical Engineering Student | Embedded Systems • Digital Systems • Power Engineering</p>
     <p>York University • Lassonde School of Engineering</p>
 </header>
 
-<!-- Profile Picture -->
 <img src="images/profile.jpg" alt="Marcelo Ceron" class="profile-pic">
 
-<!-- About Me -->
 <section>
     <h2>About Me</h2>
     <p>
         I am a second-year Electrical Engineering student at York University’s Lassonde School of Engineering with a strong interest in embedded systems, digital systems, and power engineering. 
-        I have hands-on experience with tools such as Autodesk Revit and programming in C and MATLAB, and I enjoy applying my knowledge to real-world engineering problems.
+        I have experience programming in C, Java, and MATLAB, and I enjoy applying my knowledge to real-world engineering problems through hands-on projects.
 
-        Through my projects, I have developed skills in microcontroller programming, system design, and hardware-software integration. 
-        I am always looking for opportunities to learn, build, and grow as an engineer while contributing to meaningful and innovative solutions.
+        Through my work, I have developed skills in microcontroller programming, system design, and hardware-software integration. 
+        I am always looking for opportunities to grow, build, and contribute to innovative engineering solutions.
     </p>
 </section>
 
-<!-- Projects -->
 <section>
     <h2>Projects</h2>
 
@@ -119,44 +112,37 @@
         <h3>KL43Z Interrupts & SysTick Embedded Systems Project</h3>
         <p><strong>2025</strong></p>
         <p>
-            This project was a hands-on way for me to better understand how embedded systems respond to real-world inputs. I worked with the NXP KL43Z microcontroller using Embedded C to explore interrupt-driven programming and timer-based control, and I had a really fun time building and testing the system.
+            This project helped me understand how embedded systems respond to real-time inputs using low-level programming. 
+            Using Embedded C on the NXP KL43Z microcontroller, I implemented both interrupt-driven and timer-based control systems.
         </p>
         <ul>
-            <li>Implemented GPIO interrupts where a button (SW3) triggers an Interrupt Service Routine (ISR)</li>
-            <li>Designed ISR logic to check a second button (SW1) and conditionally toggle an LED</li>
-            <li>Configured the SysTick timer to toggle an LED every 0.25 seconds</li>
-            <li>Worked directly with low-level hardware registers and microcontroller peripherals</li>
-            <li>Compared interrupt-based design vs polling for efficiency</li>
+            <li>Used GPIO interrupts to trigger an Interrupt Service Routine (ISR) from a push button</li>
+            <li>Implemented conditional logic inside the ISR to control LED behavior</li>
+            <li>Configured the SysTick timer to generate precise 0.25-second intervals</li>
+            <li>Worked directly with hardware registers and microcontroller peripherals</li>
+            <li>Improved understanding of real-time systems and efficient event handling</li>
         </ul>
     </div>
 
-    <!-- Plant Watering -->
+    <!-- Plant Watering System -->
     <div class="project">
         <h3>Automated Plant Watering System</h3>
-        <p><strong>Embedded Systems Project</strong></p>
+        <p><strong>Embedded Systems Project (Java & MATLAB)</strong></p>
         <p>
-            Designed and built an automated plant watering system using microcontroller-based control logic to monitor soil moisture and regulate water delivery.
+            Designed and developed an automated irrigation system that monitors soil moisture levels and controls water delivery using microcontroller-based logic. 
+            This project combined embedded programming in Java with MATLAB for data analysis and system validation.
         </p>
         <ul>
-            <li>Integrated soil moisture sensors for real-time monitoring</li>
-            <li>Activated water pump when moisture dropped below threshold</li>
-            <li>Calibrated sensors to prevent overwatering</li>
-            <li>Tested system under different environmental conditions</li>
+            <li>Integrated soil moisture sensors for continuous real-time monitoring</li>
+            <li>Developed control logic in Java to activate a water pump based on threshold values</li>
+            <li>Used MATLAB to analyze sensor data and optimize system performance</li>
+            <li>Calibrated sensors to prevent overwatering and improve plant health</li>
+            <li>Implemented timing delays and safety constraints for reliable operation</li>
+            <li>Tested system under different environmental conditions to ensure stability</li>
         </ul>
-    </div>
-
-    <!-- MATLAB -->
-    <div class="project">
-        <h3>MATLAB Engineering Analysis Project</h3>
-        <p><strong>2025</strong></p>
         <p>
-            Developed MATLAB programs to analyze engineering systems using numerical methods and data visualization.
+            This project strengthened my understanding of sensor interfacing, data analysis, and the integration of software with physical hardware systems.
         </p>
-        <ul>
-            <li>Processed and visualized engineering data</li>
-            <li>Implemented numerical methods</li>
-            <li>Built modular scripts using functions and loops</li>
-        </ul>
     </div>
 
     <!-- Concrete Canoe -->
@@ -164,18 +150,18 @@
         <h3>YorkU CNCC – Concrete Canoe Team</h3>
         <p><strong>2024 – 2025</strong></p>
         <p>
-            Contributed to designing a lightweight and structurally optimized concrete mix for competition.
+            Contributed to the design and optimization of a lightweight concrete mix for the Canadian National Concrete Canoe Competition.
         </p>
         <ul>
-            <li>Reduced density while maintaining strength</li>
-            <li>Performed compressive testing</li>
-            <li>Optimized material ratios</li>
+            <li>Developed mix designs to reduce density while maintaining structural strength</li>
+            <li>Performed compressive strength testing (10–20 MPa target)</li>
+            <li>Optimized workability for thin structural sections</li>
+            <li>Balanced material ratios to meet performance and competition standards</li>
         </ul>
     </div>
 
 </section>
 
-<!-- Footer -->
 <footer>
     <p>
         Email: <a href="mailto:mceron10@my.york.ca">mceron10@my.york.ca</a> |
